@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+    background-color:rgb(161, 161, 161);
+}
+
+.navbar {
+	box-sizing: border-box;
+	position: absolute;
+	width: 200px;
+	height: 100vh;
+	background-color: black;
+
+}
