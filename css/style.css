@@ -69,8 +69,10 @@ body {
 }
 
 .list_sinister i {
-	margin: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
 	color:#5A5A5A ;
+    
 }
 
 /**player**/
@@ -122,10 +124,25 @@ body {
 
 /***start**/
 .start {
-	background-color: aqua;
+	color: white;
 }
 
+.list_start{
+	display: flex;
+	flex-direction: row;
+	color: white;
+	gap: 15px;
+	font-size: 15px;
 
+}
+
+.list_start i {
+	margin-top: 20px;
+}
+
+.start-bar {
+	width: 118px;
+}
 
 
 
