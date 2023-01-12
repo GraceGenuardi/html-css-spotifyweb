@@ -45,4 +45,23 @@ body {
 }
 
 
+/****VERSIONE RESPONSIVE***/
+
+
+/***TABLET**/
+
+@media screen and (max-width: 878px){
+
+	.navbar {
+		width: 60px;
+	}
+
+	.conteiner_macro {
+		width: 93%;
+		left: 60px;
+	}
+
+	
+
+}
 
