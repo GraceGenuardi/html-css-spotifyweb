@@ -184,6 +184,14 @@ body {
 	
 }
 
+.logo_small {
+	display: none;
+}
+
+.arrow_mobile {
+	display: none;
+}
+
 
 
 /**-----MACRO AREA RULES----***/
@@ -407,13 +415,62 @@ body {
 
 /****--------ICONE SIDEBAR-------***/
 
-    .house, .search , .library {
+    .house, .search , .library , .logo_small , .arrow_mobile {
 	display: block;
 	color: white;
 
 }
 
-   .logo , .home , .playlist {
+   .logo_small img {
+	width: 40px;
+	height: 44px;
+	position: absolute;
+	top: 0;
+	padding-left: -5px;
+	left: 30px;
+	padding: 3px;
+	
+
+   }
+
+   .house i {
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	font-size: 30px;
+
+   }
+
+   .search i {
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	font-size: 30px;
+	color:#CFD0CF ;
+
+   }
+
+   .library i {
+	position: absolute;
+	top: 160px;
+	left: 30px;
+	font-size: 30px;
+	color:#CFD0CF ;
+
+   }
+
+   .arrow_mobile {
+	font-size: 13px;
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+	color:#CFD0CF ;
+   }
+
+
+
+
+   .logo img, .home ul , .playlist ul{
 	display: none;
 }
    
