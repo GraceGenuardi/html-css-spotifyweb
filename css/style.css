@@ -581,7 +581,329 @@ body {
 
 	
 
-}	
+}
+
+
+/******versione TABLET GRANDE (?)*****/
+
+@media screen and (max-width: 878px){
+
+	.sidebar {
+		width: 30%;
+		position: fixed;
+	}
+
+	.macro-area {
+		width: 100%;
+		background-color: royalblue;
+		left: 90px;
+	}
+ 
+	
+/**----------------player footer------------------------***/
+	.footer-player {
+		width: 100%;
+	}
+
+	.footer-player p {
+		font-size: 10px;
+	}
+
+ /**--SINISTER--***/
+	.sinister {
+		width: 20%;
+	}
+
+	.list_sinister {
+		display: flex;
+		flex-direction: row;
+
+	}
+	
+	.list_sinister img {
+		width: 30px;
+		height: 30px;
+		
+	}
+	
+	.list_sinister i {
+		font-size: 10px;
+		color:#474646 ;
+		display: flex;
+		flex-direction: column;
+		margin: 3px;
+		
+	}
+
+
+	/**--PLAYER--**/
+	.player-icon1{
+		width: 10px;
+		text-align: center;
+		padding-right: 300px;
+		padding-left: 30px;
+
+	}
+
+    .player-icon1 i {
+		margin: 3px;
+	}
+
+	.player-icon2{
+		padding-left: 2px;
+	}
+
+
+	/**--PROGRESS-BAR--***/
+
+	.progress-bar{
+		width: 100px;
+		
+	}
+	
+	
+	/**--START--**/
+
+	.start {
+		width: 30%;
+		margin-left: -100px;
+	}
+
+	.start-bar{
+		width: 50px ;
+	}
+
+
+/****--------ICONE SIDEBAR-------***/
+
+    /**.house, .search , .library , .logo_small , .arrow_mobile {
+	display: block;
+	color: white;
+
+}
+
+   .logo_small img {
+	width: 40px;
+	height: 44px;
+	position: absolute;
+	top: 0;
+	padding-left: -5px;
+	left: 30px;
+	padding: 3px;
+	
+
+   }
+
+   .house i {
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	font-size: 30px;
+
+   }
+
+   .search i {
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	font-size: 30px;
+	color:#CFD0CF ;
+
+   }
+
+   .library i {
+	position: absolute;
+	top: 160px;
+	left: 30px;
+	font-size: 30px;
+	color:#CFD0CF ;
+
+   }
+
+   .arrow_mobile {
+	font-size: 13px;
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+	color:#CFD0CF ;
+   }
+
+
+
+
+   .logo img, .home ul , .playlist ul{
+	display: none;
+}
+   
+   .install_sidebar , .hr_sidebar, .name_sidebar h4 {
+	display: none;
+   }
+
+	
+
+}
+
+
+/******versione desktop piccolo (?)*****/
+
+@media screen and (max-width: 1440px){
+
+	.sidebar {
+		width: 20%;
+		position: fixed;
+	}
+
+	.macro-area {
+		width: 100%;
+		background-color: royalblue;
+		left: 100px;
+	}
+ 
+	
+/**----------------player footer------------------------***/
+	.footer-player {
+		width: 100%;
+	}
+
+	.footer-player p {
+		font-size: 10px;
+	}
+
+ /**--SINISTER--***/
+	.sinister {
+		width: 20%;
+	}
+
+	.list_sinister {
+		display: flex;
+		flex-direction: row;
+
+	}
+	
+	.list_sinister img {
+		width: 30px;
+		height: 30px;
+		
+	}
+	
+	.list_sinister i {
+		font-size: 10px;
+		color:#474646 ;
+		display: flex;
+		flex-direction: column;
+		margin: 3px;
+		
+	}
+
+
+	/**--PLAYER--**/
+	.player-icon1{
+		width: 10px;
+		text-align: center;
+		padding-right: 300px;
+		padding-left: 30px;
+
+	}
+
+    .player-icon1 i {
+		margin: 3px;
+	}
+
+	.player-icon2{
+		padding-left: 2px;
+	}
+
+
+	/**--PROGRESS-BAR--***/
+
+	.progress-bar{
+		width: 100px;
+		
+	}
+	
+	
+	/**--START--**/
+
+	.start {
+		width: 30%;
+		margin-left: -100px;
+	}
+
+	.start-bar{
+		width: 50px ;
+	}
+
+
+/****--------ICONE SIDEBAR-------***/
+
+    /**.house, .search , .library , .logo_small , .arrow_mobile {
+	display: block;
+	color: white;
+
+}
+
+   .logo_small img {
+	width: 40px;
+	height: 44px;
+	position: absolute;
+	top: 0;
+	padding-left: -5px;
+	left: 30px;
+	padding: 3px;
+	
+
+   }
+
+   .house i {
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	font-size: 30px;
+
+   }
+
+   .search i {
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	font-size: 30px;
+	color:#CFD0CF ;
+
+   }
+
+   .library i {
+	position: absolute;
+	top: 160px;
+	left: 30px;
+	font-size: 30px;
+	color:#CFD0CF ;
+
+   }
+
+   .arrow_mobile {
+	font-size: 13px;
+	position: relative;
+	left: 10px;
+	bottom: 15px;
+	color:#CFD0CF ;
+   }
+
+
+
+
+   .logo img, .home ul , .playlist ul{
+	display: none;
+}
+   
+   .install_sidebar , .hr_sidebar, .name_sidebar h4 {
+	display: none;
+   }**/
+
+	
+
+}
+
+
 
 
 	
