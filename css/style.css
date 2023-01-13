@@ -58,7 +58,20 @@ body {
 	height: 61px;
 }
 
+.green-bar{
+	padding: 2px;
+	background-color:#ADFF2F ;
+	width: 3px;
+	height: 39px;
+}
 
+.home-bar{
+	color: white;
+	display: flex;
+	background-color: aqua;
+	padding: 2px;
+	margin-left: -28px;
+}
 
 
 
