@@ -28,11 +28,13 @@ li,ul {
 body {
     background-color:rgb(161, 161, 161);
 }
-/***navbar sinistra RULES***/
+
+
+/***-----SIDEBAR RULES------***/
 .sidebar {
 	box-sizing: border-box;
 	width: 12%;
-	height: 100vh;
+	height: calc(100%- 140px);
 	background-color:#000000;
 	border: 2px dashed rgb(50, 205, 97);
 	overflow: hidden;
@@ -43,13 +45,13 @@ body {
 }
 
 .col_sidebar{
-	border: 2px solid orange;
+	/**border: 2px solid orange;**/
 	padding: 30px;
 	
 }
 /***LOGO**/
 .logo {
-	border: 2px solid orange;
+	/**border: 2px solid orange;**/
 	height: 8%;
 	padding: 20px;
 }
@@ -101,6 +103,7 @@ body {
 	padding-top: 0;
 	display: flex;
 	font-size: 12px;
+	
 }
 
 .playlist h2 {
@@ -121,7 +124,7 @@ body {
 
 .edit-playlist i {
 	font-size: 40px;
-	margin: 5px;
+	margin-right: 5px;
 	color:#A3A3A3 ;
 }
 
@@ -129,10 +132,57 @@ body {
 	margin-top: 10px;
 }
 
+/**FOOTER-SIDERBAR***/
+
+.footer_sidebar {
+	margin-top: auto;
+	padding-top: 0;
+	height: 110px;
+	
+	
+}
+
+.install_sidebar {
+	display: flex;
+	font-size: 10px;
+	gap: 10px;
+	color:#6E6E6E ;
+	margin-bottom: 10px;
+	
+}
+
+.install_sidebar i {
+	margin-top: 3px; 
+}
+
+.hr_sidebar {
+	color: #a09d9d ;
+	height: 1px;
+}
+
+.name_sidebar {
+	display: flex;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	color: white;
+
+}
+
+.name_sidebar i {
+	background-color:#6E6E6E ;
+	border-radius: 50px;
+	object-fit: cover;
+	aspect-ratio: 1;
+	font-size: 30px;
+	margin-right: 5px;
+}
 
 
 
-/**MACRO AREA RULES***/
+
+
+
+/**-----MACRO AREA RULES----***/
 
 .macro-area {
 	box-sizing: border-box;
@@ -140,13 +190,13 @@ body {
 	width: 100%;
 	height: 100vh;
 	background-color:#51ccccef ;
-	left: 230px;
+	left: 225px;
 	border: 2px dashed red;
 	overflow: hidden;
 }
 
 
-/****SIDEBAR RULES***/
+/****----PLAYER RULES-----***/
 
 .footer-player {
 	box-sizing: border-box;
@@ -273,7 +323,7 @@ body {
 	.macro-area {
 		width: 100%;
 		background-color: royalblue;
-		left: 50px;
+		left: 40px;
 	}
  
 	
