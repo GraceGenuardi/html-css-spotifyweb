@@ -178,7 +178,11 @@ body {
 }
 
 
-
+/******ICONE MOBILE**********/
+.house, .search , .library {
+	display: none;
+	
+}
 
 
 
@@ -399,6 +403,23 @@ body {
 	.start-bar{
 		width: 50px ;
 	}
+
+
+/****--------ICONE SIDEBAR-------***/
+
+    .house, .search , .library {
+	display: block;
+	color: white;
+
+}
+
+   .logo , .home , .playlist {
+	display: none;
+}
+   
+   .install_sidebar , .hr_sidebar, .name_sidebar h4 {
+	display: none;
+   }
 
 	
 
