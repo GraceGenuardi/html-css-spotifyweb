@@ -33,12 +33,34 @@ body {
 	box-sizing: border-box;
 	width: 11%;
 	height: 100vh;
-	background-color: rgba(241, 25, 25, 0.753);
+	background-color:#000000;
 	border: 2px dashed rgb(50, 205, 97);
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 	
 
 }
+
+.col_sidebar{
+	border: 2px solid orange;
+	padding: 30px;
+	
+}
+
+.logo {
+	border: 2px solid orange;
+	height: 8%;
+}
+
+.logo img {
+	width: 160px;
+	height: 61px;
+}
+
+
+
+
 
 /**MACRO AREA RULES***/
 
