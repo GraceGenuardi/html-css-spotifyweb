@@ -4,6 +4,22 @@
 	box-sizing: border-box;
 }
 
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.sidebar, .macro-area ,.footer-player {
+	position: fixed;
+}
+
+.sidebar, .macro-area {
+	height: calc(100vh - 90px);
+}
+
+
+/***NB.Usare variabili colori***/
+
+
 li,ul {
 	list-style: none;
 	
@@ -13,32 +29,34 @@ body {
     background-color:rgb(161, 161, 161);
 }
 /***navbar sinistra RULES***/
-.navbar {
+.sidebar {
 	box-sizing: border-box;
-	position: absolute;
-	width: 200px;
+	width: 11%;
 	height: 100vh;
-	background-color: rgba(102, 100, 100, 0.11);
+	background-color: rgba(241, 25, 25, 0.753);
 	border: 2px dashed rgb(50, 205, 97);
+	overflow: hidden;
+	
 
 }
 
 /**MACRO AREA RULES***/
 
-.conteiner_macro {
+.macro-area {
 	box-sizing: border-box;
-	position: absolute;
-	width: 89%;
+	/*position: absolute;*/
+	width: 100%;
 	height: 100vh;
-	background-color:#e3fafa18 ;
+	background-color:#51ccccef ;
 	left: 200px;
 	border: 2px dashed red;
+	overflow: hidden;
 }
 
 
 /****SIDEBAR RULES***/
 
-.sidebar {
+.footer-player {
 	box-sizing: border-box;
 	position: absolute;
 	width: 100%;
@@ -151,20 +169,203 @@ body {
 /****VERSIONE RESPONSIVE***/
 
 
-/***TABLET**/
+/***-------MOBILE-------**/
 
 @media screen and (max-width: 552px){
 
-	.navbar {
-		width: 60px;
+	.sidebar {
+		width: 10%;
+		position: fixed;
 	}
 
-	.conteiner_macro {
-		width: 93%;
-		left: 60px;
+	.macro-area {
+		width: 100%;
+		background-color: royalblue;
+		left: 50px;
+	}
+ 
+	
+/**----------------player footer------------------------***/
+	.footer-player {
+		width: 100%;
+	}
+
+	.footer-player p {
+		font-size: 10px;
+	}
+
+ /**--SINISTER--***/
+	.sinister {
+		width: 20%;
+	}
+
+	.list_sinister {
+		display: flex;
+		flex-direction: row;
+
+	}
+	
+	.list_sinister img {
+		width: 30px;
+		height: 30px;
+		
+	}
+	
+	.list_sinister i {
+		font-size: 10px;
+		color:#474646 ;
+		display: flex;
+		flex-direction: column;
+		margin: 3px;
+		
+	}
+
+
+	/**--PLAYER--**/
+	.player-icon1{
+		width: 10px;
+		text-align: center;
+		padding-right: 300px;
+		padding-left: 30px;
+
+	}
+
+    .player-icon1 i {
+		margin: 3px;
+	}
+
+	.player-icon2{
+		padding-left: 2px;
+	}
+
+
+	/**--PROGRESS-BAR--***/
+
+	.progress-bar{
+		width: 100px;
+		
+	}
+	
+	
+	/**--START--**/
+
+	.start {
+		width: 30%;
+		margin-left: -100px;
+	}
+
+	.start-bar{
+		width: 50px ;
 	}
 
 	
 
 }
+
+
+
+	/***-----TABLET-----**/
+
+@media screen and (max-width: 639px){
+
+	.sidebar {
+		width: 30%;
+		position: fixed;
+	}
+
+	.macro-area {
+		width: 100%;
+		background-color: royalblue;
+		left: 90px;
+	}
+ 
+	
+	
+	
+/**----------------player footer------------------------***/
+	.footer-player {
+		width: 100%;
+	}
+
+	.footer-player p {
+		font-size: 10px;
+	}
+
+ /**--SINISTER--***/
+	.sinister {
+		width: 20%;
+	}
+
+	.list_sinister {
+		display: flex;
+		flex-direction: row;
+
+	}
+	
+	.list_sinister img {
+		width: 30px;
+		height: 30px;
+		
+	}
+	
+	.list_sinister i {
+		font-size: 10px;
+		color:#474646 ;
+		display: flex;
+		flex-direction: column;
+		margin: 3px;
+		
+	}
+
+
+	/**--PLAYER--**/
+	.player-icon1{
+		width: 10px;
+		text-align: center;
+		padding-right: 300px;
+		padding-left: 30px;
+
+	}
+
+    .player-icon1 i {
+		margin: 3px;
+	}
+
+	.player-icon2{
+		padding-left: 2px;
+	}
+
+
+	/**--PROGRESS-BAR--***/
+
+	.progress-bar{
+		width: 100px;
+		
+	}
+	
+	
+	/**--START--**/
+
+	.start {
+		width: 30%;
+		margin-left: -100px;
+	}
+
+	.start-bar{
+		width: 50px ;
+	}
+
+	
+
+
+
+	
+
+}	
+
+
+	
+
+
+
 
