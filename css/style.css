@@ -222,17 +222,18 @@ body {
 .button_upgrade {
 	border: 1px solid white;
 	border-radius: 50px;
-	padding: 8px;
+	padding: 10px;
 	width: 200px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 12px;
 	margin-left: 1450px;
 }
 
 .button_upgrade:hover
 {   
-	font-size: 17px;
+	font-size: 13px;
+	
 	
 }
 
@@ -362,6 +363,24 @@ body {
 
 .sidebar h4:hover{
 	color: white;
+}
+
+.sidebar p:hover{
+	color: white;
+}
+
+.sinister span:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.sinister i:hover {
+	color: white;
+}
+
+.circle_play i:hover {
+	font-size: 25px;
+	
 }
 
 
