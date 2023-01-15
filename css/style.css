@@ -16,6 +16,11 @@ html {
 	height: calc(100vh - 90px);
 }
 
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
 
 /***NB.Usare variabili colori***/
 
@@ -226,9 +231,9 @@ body {
 }
 
 .button_upgrade:hover
-{
-	font-size: 16px;
-	padding: 10px;
+{   
+	font-size: 17px;
+	
 }
 
 
@@ -342,10 +347,54 @@ body {
 }
 
 
+/***-----HOVER----****/
+
+.button_upgrade:hover
+{   
+	font-size: 17px;
+	
+}
+
+
+.sidebar h3:hover{
+	color: white;
+}
+
+.sidebar h4:hover{
+	color: white;
+}
 
 
 
-/****VERSIONE RESPONSIVE***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****--------------------------------VERSIONE RESPONSIVE--------------------------------------***/
 
 
 /***-------MOBILE-------**/
