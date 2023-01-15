@@ -352,7 +352,7 @@ body {
 
 .button_upgrade:hover
 {   
-	font-size: 17px;
+	scale:1.1;
 	
 }
 
@@ -379,7 +379,7 @@ body {
 }
 
 .circle_play i:hover {
-	font-size: 25px;
+	scale: 1.2;
 	
 }
 
