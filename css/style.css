@@ -300,6 +300,19 @@ body {
 	height: 170px;
 }
 
+.hover_play{
+	font-size: 65px;
+	position: relative;
+	top: -200px;
+	display: block;
+	display: none;
+}
+
+.stranger .hover_play {
+	top:-260px;
+	display: none;
+}
+
 /*.card_album p {
 	color: #77797D;
 	font-size: 15px;
@@ -458,6 +471,9 @@ body {
 
 }
 
+
+
+
 /***start**/
 .start {
 	color: white;
@@ -530,6 +546,15 @@ body {
 
 .green_progressbar:hover .circle_bar_little{
     display: block;
+}
+
+
+.card_album:hover {
+	opacity: 0.7;
+}
+
+.card_album:hover .hover_play{
+	display: block;
 }
 
 
