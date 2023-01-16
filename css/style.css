@@ -432,13 +432,30 @@ body {
 	padding: 4px;
 }
 
-.circle_bar a {
+.circle_bar {
 	background-color: white;
 	border-radius: 100%;
 	padding: 5px;
-	/*margin-left: -5px;
-	margin-top: -4px;*/
+	width: 5px;
+	height: 5px;
+	position: relative;
+	left: 140px;
+	bottom: 5px;
 	display: none;
+}
+
+
+.circle_bar_little{
+	background-color: white;
+	border-radius: 100%;
+	padding: 5px;
+	width: 5px;
+	height: 5px;
+	position: relative;
+	left: 25px;
+	bottom: 5px;
+	display: none;
+
 }
 
 /***start**/
@@ -506,7 +523,12 @@ body {
 	background-color: #ADFF2F;
 }
 
-a:hover + .circle_bar{
+.green_progressbar:hover .circle_bar{
+    display: block;
+}
+
+
+.green_progressbar:hover .circle_bar_little{
     display: block;
 }
 
