@@ -557,6 +557,14 @@ body {
 	display: block;
 }
 
+.menu li:hover {
+	color: white;
+}
+
+.edit-playlist i:hover {
+	color: white;
+}
+
 
 
 
@@ -761,6 +769,7 @@ body {
 
     .first_album {
 		flex-wrap: wrap;
+		gap: 40px;
 	}
 
 	.green-bar-menu{
@@ -772,6 +781,30 @@ body {
 	}
 
 
+	/*-----CIRCLE BAR-----*/
+	.circle_bar {
+		background-color: white;
+		border-radius: 100%;
+		padding: 5px;
+		width: 5px;
+		height: 5px;
+		position: relative;
+		left: 20px;
+		bottom: 5px;
+	}
+	
+	
+	.circle_bar_little{
+		background-color: white;
+		border-radius: 100%;
+		padding: 5px;
+		width: 5px;
+		height: 5px;
+		position: relative;
+		left: 5px;
+		bottom: 5px;
+	
+	}
 
 
 }
