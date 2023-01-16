@@ -698,7 +698,34 @@ a:hover + .circle_bar{
 	display: none;
    }
 
-	
+/***----------MACRO AREA-----------****/
+
+    .col_menu{
+		margin-left: 0;
+		width: 400px;
+		
+    }
+    
+	.menu {
+		font-size: 10px;
+		
+	}
+
+
+    .first_album {
+		flex-wrap: wrap;
+	}
+
+	.green-bar-menu{
+		background-color: #ADFF2F;
+		padding: 1px;
+		width: 30px;
+		margin-left: 10px;
+		
+	}
+
+
+
 
 }
 
