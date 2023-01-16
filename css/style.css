@@ -213,7 +213,18 @@ body {
 	left: 225px;
 	/*border: 2px dashed red;*/
 	overflow-y: auto;
+
 	
+}
+
+.macro-area p {
+	color: #77797D;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.macro-area h2 {
+	font-size: 13px;
 }
 
 .navbar_macro {
@@ -269,25 +280,27 @@ body {
 	padding: 20px;
 }
 
+
+
 .first_album{
 	display: flex;
-    gap: 90px;
+    gap: 20px;
 
 }
 
 .card_album {
-	width: 178px;
-	height: 184px;
+	width: 170px;
+	height: 170px;
 	margin-top: 20px;
 	text-align: center;
 }
 
 .card_album img{
-	width: 178px;
-	height: 184px;
+	width: 170px;
+	height: 170px;
 }
 
-.card_album p {
+/*.card_album p {
 	color: #77797D;
 	font-size: 15px;
 	padding: 5px;
@@ -300,6 +313,18 @@ body {
 /*.stranger h2 {
 	font-size: 14px;
 }*/
+
+.col_macro_second{
+	color: white;
+	padding: 20px;
+	margin-top: 80px;
+
+}
+.second_album{
+	display: flex;
+    gap: 20px;
+
+}
     
 
 
