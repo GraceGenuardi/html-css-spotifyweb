@@ -42,9 +42,11 @@ body {
 	height: calc(100%- 140px);
 	background-color:#000000;
 	/*border: 2px dashed rgb(50, 205, 97);*/
-	overflow: hidden;
+	/*overflow: hidden;*/
 	display: flex;
 	flex-direction: column;
+	flex-shrink: 2;
+	overflow: hidden;
 	
 
 }
@@ -143,6 +145,7 @@ body {
 	margin-top: auto;
 	padding-top: 0;
 	height: 110px;
+	flex-shrink: 1;
 	
 	
 }
@@ -204,12 +207,12 @@ body {
 .macro-area {
 	box-sizing: border-box;
 	/*position: absolute;*/
-	width: 100%;
+	width: 1700px;
 	height: 100vh;
 	background-color: #141922;
 	left: 225px;
 	/*border: 2px dashed red;*/
-	overflow: hidden;
+	overflow-y: auto;
 	
 }
 
@@ -226,7 +229,7 @@ body {
 	width: 200px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 14px;
 	margin-left: 1450px;
 }
 
@@ -236,6 +239,69 @@ body {
 	
 	
 }
+
+
+.col_menu{
+	display: flex;
+	justify-content: center;
+}
+.menu{
+	display: flex;
+	gap: 20px;
+	color: #77797D;
+	text-transform: uppercase;
+	padding: 10px;
+	font-size: 15px;
+
+}
+
+.green-bar-menu{
+	background-color: #ADFF2F;
+	padding: 1px;
+	width: 30px;
+	margin-left: 30px;
+	
+}
+
+
+.col_macro{
+	color: white;
+	padding: 20px;
+}
+
+.first_album{
+	display: flex;
+    gap: 90px;
+
+}
+
+.card_album {
+	width: 178px;
+	height: 184px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.card_album img{
+	width: 178px;
+	height: 184px;
+}
+
+.card_album p {
+	color: #77797D;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.card_album h2 {
+     font-size: 15px;
+}
+
+/*.stranger h2 {
+	font-size: 14px;
+}*/
+    
+
 
 
 
@@ -257,6 +323,7 @@ body {
 /**Sinister**/
 .sinister{
 	color: white;
+	font-size: 12px;
 
 }
 
@@ -323,6 +390,24 @@ body {
     -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
     -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
     box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+	display: flex;
+}
+
+
+.green_progressbar{
+	background-color:#C1C1C1;
+	border-radius: 5px;
+	width: 30%;
+	padding: 4px;
+}
+
+.circle_bar a {
+	background-color: white;
+	border-radius: 100%;
+	padding: 5px;
+	/*margin-left: -5px;
+	margin-top: -4px;*/
+	display: none;
 }
 
 /***start**/
@@ -346,6 +431,9 @@ body {
 .start-bar {
 	width: 118px;
 }
+
+
+
 
 
 /***-----HOVER----****/
@@ -381,6 +469,14 @@ body {
 .circle_play i:hover {
 	scale: 1.2;
 	
+}
+
+.green_progressbar:hover {
+	background-color: #ADFF2F;
+}
+
+a:hover + .circle_bar{
+    display: block;
 }
 
 
@@ -423,11 +519,11 @@ body {
 	.sidebar {
 		width: 10%;
 		position: fixed;
+
 	}
 
 	.macro-area {
 		width: 100%;
-		background-color: royalblue;
 		left: 40px;
 	}
  
@@ -588,7 +684,6 @@ body {
 
 	.macro-area {
 		width: 100%;
-		background-color: royalblue;
 		left: 90px;
 	}
  
@@ -688,7 +783,6 @@ body {
 
 	.macro-area {
 		width: 100%;
-		background-color: royalblue;
 		left: 90px;
 	}
  
@@ -839,7 +933,7 @@ body {
 
 /******versione desktop piccolo (?)*****/
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1000px){
 
 	.sidebar {
 		width: 20%;
@@ -848,7 +942,6 @@ body {
 
 	.macro-area {
 		width: 100%;
-		background-color: royalblue;
 		left: 100px;
 	}
  
