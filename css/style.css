@@ -284,6 +284,8 @@ li,ul {
 	text-transform: uppercase;
 	padding: 10px;
 	font-size: 15px;
+	padding-right: 200px;
+	
 
 }
 
@@ -792,8 +794,8 @@ li,ul {
 /***----------MACRO AREA-----------****/
 
     .col_menu{
-		margin-left: 0;
 		width: 400px;
+		padding-left: 150px;
 		
     }
     
