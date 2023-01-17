@@ -30,9 +30,14 @@ li,ul {
 	
 }
 
-body {
-    background-color:rgb(161, 161, 161);
-}
+/*body {
+    background-color:rgb(197, 17, 17);
+	max-width: 1440px;
+}*/
+
+/*main {
+	width: 1440px;
+}*/
 
 
 /***-----SIDEBAR RULES------***/
@@ -246,6 +251,8 @@ body {
 	background-color:#080B12 ;
 	color: white;
 	padding: 30px;
+	display: flex;
+	justify-content: end;
 }
 
 .button_upgrade {
@@ -256,7 +263,10 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 14px;
-	margin-left: 1450px;
+	
+	
+	/*position: sticky;
+	z-index: unset;*/
 }
 
 .button_upgrade:hover
@@ -636,7 +646,8 @@ body {
 	}
 	
 	.button_upgrade {
-		margin-left: 200px;
+
+		
 	}
  
 	
@@ -847,12 +858,45 @@ body {
 		/*position: fixed;*/
 	}
 
+	/**--------macro area---------**/
 	.macro-area {
-		width: 70%;
+		width: 30%;
 		
+	}
+
+	.navbar_macro {
+		flex-basis: 100%;
+	}
+	
+	.button_upgrade {
 		
 	}
  
+	.col_menu{
+		margin-left: 40px;
+		width: 400px;
+		
+    }
+    
+	.menu {
+		font-size: 12px;
+		
+	}
+
+
+    .first_album {
+		flex-wrap: wrap;
+		gap: 40px;
+		flex-basis: 100%;
+	}
+
+	.green-bar-menu{
+		background-color: #ADFF2F;
+		padding: 1px;
+		width: 30px;
+		margin-left: 10px;
+		
+	}
 	
 	
 	
