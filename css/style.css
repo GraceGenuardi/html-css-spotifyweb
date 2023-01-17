@@ -8,7 +8,7 @@ html {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.sidebar, .macro-area ,.footer-player {
+.sidebar,.footer-player, .macro-area {
 	position: fixed;
 }
 
@@ -38,7 +38,7 @@ body {
 /***-----SIDEBAR RULES------***/
 .sidebar {
 	box-sizing: border-box;
-	width: 12%;
+	width: 250px;
 	height: calc(100%- 140px);
 	background-color:#000000;
 	/*border: 2px dashed rgb(50, 205, 97);*/
@@ -71,20 +71,33 @@ body {
 
 /***HOME***/
 
-.green-bar{
+/*.green-bar{
 	background-color:#ADFF2F ;
-	width: 3px;
-	height: 40px;
+	width: 2px;
+	height: 30px;
 	margin-right: 20px;
+}*/
+
+.home-bar_green::before{
+	display: block;
+	content: '';
+	position: absolute;
+	top: 100px;
+	left: 0;
+	bottom: 0;
+	background-color: #ADFF2F;
+	width: 3px;
+	height: 20px;
 }
 
 .home-bar_green{
-	color: white;
 	display: flex;
-	gap: 7px;
-	padding: 2px;
-	margin-left: -30px;
+
+}
+.home-bar_green h4 {
+	color: white;
 	font-size: 12px;
+	padding-bottom: 5px;
 }
 
 .home-bar {
@@ -99,6 +112,8 @@ body {
 .home i {
 	margin-bottom: 10px;
 	font-size: 20px;
+	color: white;
+	margin-right: 10px;
 
 }
 
@@ -205,14 +220,14 @@ body {
 /**-----MACRO AREA RULES----***/
 
 .macro-area {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	/*position: absolute;*/
-	width: 1700px;
+	width: 100%;
 	height: 100vh;
 	background-color: #141922;
 	left: 225px;
 	/*border: 2px dashed red;*/
-	overflow-y: auto;
+	/*overflow-y: auto;*/
 
 	
 }
@@ -603,14 +618,25 @@ body {
 @media screen and (max-width: 552px){
 
 	.sidebar {
-		width: 10%;
+		flex-basis: 50px;
 		position: fixed;
 
 	}
 
+
+
+/**--------macro area---------**/
 	.macro-area {
 		width: 100%;
-		left: 40px;
+		
+	}
+
+	.navbar_macro {
+		flex-basis: 100%;
+	}
+	
+	.button_upgrade {
+		margin-left: 200px;
 	}
  
 	
@@ -816,13 +842,15 @@ body {
 @media screen and (max-width: 639px){
 
 	.sidebar {
-		width: 30%;
-		position: fixed;
+		width: 250px;
+		
+		/*position: fixed;*/
 	}
 
 	.macro-area {
-		width: 100%;
-		left: 90px;
+		width: 70%;
+		
+		
 	}
  
 	
