@@ -32,7 +32,7 @@ li,ul {
 
 /*body {
     background-color:rgb(197, 17, 17);
-	max-width: 1440px;
+	flex-basis: 80%;
 }*/
 
 /*main {
@@ -233,7 +233,6 @@ li,ul {
 	left: 225px;
 	/*border: 2px dashed red;*/
 	overflow-y: auto;
-
 	
 }
 
@@ -353,6 +352,7 @@ li,ul {
 	color: white;
 	padding: 20px;
 	margin-top: 80px;
+	
 
 }
 .second_album{
@@ -365,6 +365,7 @@ li,ul {
 	color: white;
 	padding: 20px;
 	margin-top: 10px;
+	
 }
     
 
@@ -848,17 +849,16 @@ li,ul {
 
 	/***-----TABLET-----**/
 
-@media screen and (max-width: 639px){
+@media screen and (max-width: 700px){
 
 	.sidebar {
 		width: 250px;
-		
-		/*position: fixed;*/
 	}
 
 	/**--------macro area---------**/
 	.macro-area {
-		width: 30%;
+		
+		
 		
 	}
 
