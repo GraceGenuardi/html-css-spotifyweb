@@ -232,7 +232,7 @@ li,ul {
 	background-color: #141922;
 	left: 225px;
 	/*border: 2px dashed red;*/
-	/*overflow-y: auto;*/
+	overflow-y: auto;
 
 	
 }
@@ -263,10 +263,7 @@ li,ul {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 14px;
-	
-	
-	/*position: sticky;
-	z-index: unset;*/
+	margin-right: 200px;
 }
 
 .button_upgrade:hover
@@ -646,6 +643,7 @@ li,ul {
 	}
 	
 	.button_upgrade {
+		margin-right: 80px;
 
 		
 	}
